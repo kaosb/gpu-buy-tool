@@ -41,7 +41,6 @@ class ApplicationController < ActionController::API
     args << '--disable-translate'
     args << '--lang=en-US'
     browser = Watir::Browser.new :chrome, options: { args: args }, headless: true
-    # browser = Watir::Browser.new :firefox, headless: true
     browser.goto 'www.ebay.com'
     browser.element(id: 'gh-ac').set search
     browser.element(id: 'gh-btn').click
