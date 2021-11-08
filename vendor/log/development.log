@@ -1,0 +1,1220 @@
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 00:34:42 -0300
+  
+ActiveRecord::NoDatabaseError (connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "gpu_buy_tool_development" does not exist
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 00:35:33 -0300
+  
+ActiveRecord::NoDatabaseError (connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "gpu_buy_tool_development" does not exist
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/v1/" for ::1 at 2021-11-08 00:35:38 -0300
+  
+ActiveRecord::NoDatabaseError (connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "gpu_buy_tool_development" does not exist
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (307.2ms)[0m  [1m[35mCREATE DATABASE "gpu_buy_tool_development" ENCODING = 'unicode'[0m
+  [1m[35m (124.8ms)[0m  [1m[35mCREATE DATABASE "gpu_buy_tool_test" ENCODING = 'unicode'[0m
+Started GET "/api/v1/" for ::1 at 2021-11-08 00:36:56 -0300
+Processing by ApplicationController#health as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 332)
+
+
+Started GET "/api/v1/" for ::1 at 2021-11-08 00:37:19 -0300
+Processing by ApplicationController#health as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 179)
+
+
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 00:37:23 -0300
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+Completed 500 Internal Server Error in 85574ms (ActiveRecord: 0.0ms | Allocations: 3400203)
+
+
+  
+NameError (undefined local variable or method `obj' for #<ApplicationController:0x00000000006b58>):
+  
+app/controllers/application_controller.rb:49:in `ebay_search'
+app/controllers/application_controller.rb:10:in `search'
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 00:40:00 -0300
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+Completed 200 OK in 88402ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3394389)
+
+
+  [1m[35m (116.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (53.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6308664222383970195)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20211108034236)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (51.0ms)[0m  [1m[35mCREATE TABLE "products" ("id" bigserial primary key, "title" character varying, "url" character varying, "img" character varying, "price" character varying, "bids" character varying, "time_left" character varying, "shipping" character varying, "seller_id" character varying, "model_id" integer, "brand_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "status" boolean DEFAULT TRUE)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211108034236"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateSellers (20211108034335)
+  [1m[36mTRANSACTION (41.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "sellers" ("id" bigserial primary key, "username" character varying, "stars" character varying, "feedback" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "status" boolean DEFAULT TRUE)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211108034335"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-11-08 03:52:12.132518"], ["updated_at", "2021-11-08 03:52:12.132518"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6308664222383970195)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:00:21 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+Completed 500 Internal Server Error in 73108ms (ActiveRecord: 6.7ms | Allocations: 3403742)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'image' for Product.):
+  
+app/controllers/application_controller.rb:12:in `block in search'
+app/controllers/application_controller.rb:11:in `each'
+app/controllers/application_controller.rb:11:in `search'
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:03:24 -0300
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (86.1ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Almohadilla Térmica modificado NVIDIA RTX 3090 Founders Edition"], ["url", "https://www.ebay.com/itm/185147469047?hash=item2b1ba62cf7:g:~LsAAOSwd8FhhRrZ"], ["img", "https://i.ebayimg.com/thumbs/images/g/~LsAAOSwd8FhhRrZ/s-l225.webp"], ["price", "CLP $1 916 193.18"], ["bids", "18 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 8 h 1 min (Today 09:05 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.656260"], ["updated_at", "2021-11-08 04:04:46.656260"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 FTW3 ULTRA tasa de datos doble de gráficos 24GB 6X"], ["url", "https://www.ebay.com/itm/403264120143?hash=item5de46a254f:g:sQ4AAOSwLZthe~ds"], ["img", "https://i.ebayimg.com/thumbs/images/g/sQ4AAOSwLZthe~ds/s-l225.webp"], ["price", "CLP $2 069 805.19"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 9 h 41 min (Today 10:45 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.751536"], ["updated_at", "2021-11-08 04:04:46.751536"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (1.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA NVIDIA GeForce RTX 3090 gráficos 24GB tarjeta gráfica de velocidad de datos doble 6 (24GP53987KR)"], ["url", "https://www.ebay.com/itm/124989930655?epid=11047364407&hash=item1d19fafc9f:g:fpEAAOSwEFNhAWpE"], ["img", "https://i.ebayimg.com/thumbs/images/g/fpEAAOSwEFNhAWpE/s-l225.webp"], ["price", "CLP $2 150 974.03"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 11 h 39 min (Today 12:43 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.755484"], ["updated_at", "2021-11-08 04:04:46.755484"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (40.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 XC3 ULTRA tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/185139813401?epid=14040736177&hash=item2b1b315c19:g:IXQAAOSwUdVhgBob"], ["img", "https://i.ebayimg.com/thumbs/images/g/IXQAAOSwUdVhgBob/s-l225.webp"], ["price", "CLP $1 960 227.27"], ["bids", "28 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 12 h 45 min (Today 01:49 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.765129"], ["updated_at", "2021-11-08 04:04:46.765129"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA GeForce RTX3090 FTW3 ULTRA 24GB Graphics Double Data Rate 6X P5-3987-KR con Caja Original"], ["url", "https://www.ebay.com/itm/175003783368?hash=item28bf09d0c8:g:tPsAAOSwAnthgCYJ"], ["img", "https://i.ebayimg.com/thumbs/images/g/tPsAAOSwAnthgCYJ/s-l225.webp"], ["price", "CLP $2 111 201.30"], ["bids", "42 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 13 h 40 min (Today 02:44 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.813824"], ["updated_at", "2021-11-08 04:04:46.813824"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition 24GB Graphics Double Data Rate 6 tarjeta gráfica-TITANIO/Bl.."], ["url", "https://www.ebay.com/itm/353752290357?epid=6041238838&hash=item525d479435:g:7-AAAOSwmCdhWzms"], ["img", "https://i.ebayimg.com/thumbs/images/g/7-AAAOSwmCdhWzms/s-l225.webp"], ["price", "CLP $2 314 123.38"], ["bids", "16 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 14 h 51 min (Today 03:55 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.820262"], ["updated_at", "2021-11-08 04:04:46.820262"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "GIGABYTE GeForce RTX 3090 Vision OC tarjeta de gráficos 24G nuevo sellado de la GPU"], ["url", "https://www.ebay.com/itm/255206917334?epid=4042098506&hash=item3b6b8484d6:g:XRkAAOSw6ZJhgAg~"], ["img", "https://i.ebayimg.com/thumbs/images/g/XRkAAOSw6ZJhgAg~/s-l225.webp"], ["price", "CLP $2 314 123.38"], ["bids", "4 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 15 h 56 min (Today 05:00 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.825910"], ["updated_at", "2021-11-08 04:04:46.825910"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Nvidia GeForce RTX 3090 Founders Edition 24gb RTX 3090"], ["url", "https://www.ebay.com/itm/403274870381?hash=item5de50e2e6d:g:L3QAAOSwkalhgVg9"], ["img", "https://i.ebayimg.com/thumbs/images/g/L3QAAOSwkalhgVg9/s-l225.webp"], ["price", "CLP $1 781 655.84"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 16 h 31 min (Today 05:35 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.836270"], ["updated_at", "2021-11-08 04:04:46.836270"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Zotac Geforce RTX 3090 Trinity OC 24GB"], ["url", "https://www.ebay.com/itm/373776819215?hash=item5706d5a40f:g:ZxMAAOSwTkFhgFTn"], ["img", "https://i.ebayimg.com/thumbs/images/g/ZxMAAOSwTkFhgFTn/s-l225.webp"], ["price", "CLP $1 710 339.29"], ["bids", "9 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 17 h (Today 06:04 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.844862"], ["updated_at", "2021-11-08 04:04:46.844862"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (41.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 suprim X 24gb"], ["url", "https://www.ebay.com/itm/373776820333?hash=item5706d5a86d:g:D3MAAOSwZq9hgFbi"], ["img", "https://i.ebayimg.com/thumbs/images/g/D3MAAOSwZq9hgFbi/s-l225.webp"], ["price", "CLP $1 970 941.56"], ["bids", "6 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 17 h 3 min (Today 06:07 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.854476"], ["updated_at", "2021-11-08 04:04:46.854476"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition tasa de datos doble de gráficos 24GB 6X tarjeta gráfica Nuevo Sellado"], ["url", "https://www.ebay.com/itm/115075187756?epid=6041238838&hash=item1acb04042c:g:cb0AAOSwT9NhgGa9"], ["img", "https://i.ebayimg.com/thumbs/images/g/cb0AAOSwT9NhgGa9/s-l225.webp"], ["price", "CLP $2 232 142.86"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 18 h 15 min (Today 07:19 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.902269"], ["updated_at", "2021-11-08 04:04:46.902269"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (3.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition 24GB Graphics Double Data Rate 6 tarjeta gráfica -..."], ["url", "https://www.ebay.com/itm/393672275416?epid=6041238838&hash=item5ba8b235d8:g:JjcAAOSweTlhW4e9"], ["img", "https://i.ebayimg.com/thumbs/images/g/JjcAAOSweTlhW4e9/s-l225.webp"], ["price", "CLP $4 058 441.56"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 19 h 1 min (Today 08:05 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.908261"], ["updated_at", "2021-11-08 04:04:46.908261"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Gigabyte aorus GeForce RTX 3090 Xtreme 24gb GDDR tarjeta gráfica 6x"], ["url", "https://www.ebay.com/itm/353752590455?epid=2311790212&hash=item525d4c2877:g:9coAAOSwylRhZv9n"], ["img", "https://i.ebayimg.com/thumbs/images/g/9coAAOSwylRhZv9n/s-l225.webp"], ["price", "CLP $2 335 284.50"], ["bids", "61 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 19 h 22 min (Today 08:26 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.918189"], ["updated_at", "2021-11-08 04:04:46.918189"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (2.0ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA-GeForce RTX 3090 XC3 Juegos Ultra 24GB"], ["url", "https://www.ebay.com/itm/403279376320?hash=item5de552efc0:g:pOsAAOSwMCVhhdeo"], ["img", "https://i.ebayimg.com/thumbs/images/g/pOsAAOSwMCVhhdeo/s-l225.webp"], ["price", "CLP $1 785 714.29"], ["bids", "1 oferta de subasta"], ["time_left", "Tiempo restante\nQuedan 21 h 17 min (Today 10:21 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.925435"], ["updated_at", "2021-11-08 04:04:46.925435"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (7.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dell Alienware Nvidia RTX 3090 tarjeta de gráficos 24GB/tarjeta de video"], ["url", "https://www.ebay.com/itm/324861089363?hash=item4ba33ad653:g:wksAAOSwpjBhgJgG"], ["img", "https://i.ebayimg.com/thumbs/images/g/wksAAOSwpjBhgJgG/s-l225.webp"], ["price", "CLP $1 948 863.64"], ["bids", "76 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 21 h 43 min (Today 10:47 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.939793"], ["updated_at", "2021-11-08 04:04:46.939793"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dell NVIDIA GeForce RTX 3090 tarjeta de gráficos 24GB Graphics Double Data Rate minería GPU de juegos 6X"], ["url", "https://www.ebay.com/itm/124990652971?hash=item1d1a06022b:g:J4UAAOSwjgJhhewx"], ["img", "https://i.ebayimg.com/thumbs/images/g/J4UAAOSwjgJhhewx/s-l225.webp"], ["price", "CLP $2 677 759.74"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 22 h 45 min (Today 11:49 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.953130"], ["updated_at", "2021-11-08 04:04:46.953130"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition gráficos 24GB tarjeta gráfica de velocidad de datos doble 6"], ["url", "https://www.ebay.com/itm/373777164259?epid=6041238838&hash=item5706dae7e3:g:Zq8AAOSwl5ZhgK9i"], ["img", "https://i.ebayimg.com/thumbs/images/g/Zq8AAOSwl5ZhgK9i/s-l225.webp"], ["price", "CLP $1 948 051.95"], ["bids", "20 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 23 h 22 min (Tue, 12:26 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.957637"], ["updated_at", "2021-11-08 04:04:46.957637"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "GPU asus Rog denominada RTX 3090 OC"], ["url", "https://www.ebay.com/itm/255207953231?hash=item3b6b94534f:g:gCQAAOSw9F9hgSMO"], ["img", "https://i.ebayimg.com/thumbs/images/g/gCQAAOSw9F9hgSMO/s-l225.webp"], ["price", "CLP $3 376 314.94"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 7 h (Tue, 08:43 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.968229"], ["updated_at", "2021-11-08 04:04:46.968229"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 FTW3 ULTRA tasa de datos doble de gráficos 24GB 6X tarjeta gráfica con Caja Original"], ["url", "https://www.ebay.com/itm/324869475663?epid=23040748507&hash=item4ba3bacd4f:g:KD8AAOSwoNlheJdg"], ["img", "https://i.ebayimg.com/thumbs/images/g/KD8AAOSwoNlheJdg/s-l225.webp"], ["price", "CLP $2 232 142.86"], ["bids", "15 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 8 h (Tue, 09:46 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.976225"], ["updated_at", "2021-11-08 04:04:46.976225"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (1.7ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 suprim X 24GB Graphics Double Data Rate 6X tarjeta gráfica con Caja Original"], ["url", "https://www.ebay.com/itm/324869489063?epid=25043271335&hash=item4ba3bb01a7:g:n9cAAOSwD~pheJkw"], ["img", "https://i.ebayimg.com/thumbs/images/g/n9cAAOSwD~pheJkw/s-l225.webp"], ["price", "CLP $1 765 422.08"], ["bids", "15 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 8 h (Tue, 09:59 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:46.985741"], ["updated_at", "2021-11-08 04:04:46.985741"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (11.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (9.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "ASUS ROG Strix GeForce RTX 3090 OC Blanca 24GB Graphics Double Data Rate 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/124991358686?hash=item1d1a10c6de:g:jtIAAOSw7hNhhpTH"], ["img", "https://i.ebayimg.com/thumbs/images/g/jtIAAOSw7hNhhpTH/s-l225.webp"], ["price", "CLP $2 556 818.18"], ["bids", "19 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 10 h (Tue, 11:47 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.002730"], ["updated_at", "2021-11-08 04:04:47.002730"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (1.9ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "PNY GeForce RTX 3090 XLR8 Juegos épica-X Rgb Triple Ventilador Edition 24GB GDDR 6X"], ["url", "https://www.ebay.com/itm/133919342668?epid=9040737076&hash=item1f2e37004c:g:glwAAOSw3lNhfWAz"], ["img", "https://i.ebayimg.com/thumbs/images/g/glwAAOSw3lNhfWAz/s-l225.webp"], ["price", "CLP $2 079 343.34"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 11 h (Tue, 12:13 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.021389"], ["updated_at", "2021-11-08 04:04:47.021389"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (22.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition Graphics Double Data Rate 6 piezas de la unidad de tarjeta de gráficos"], ["url", "https://www.ebay.com/itm/203682777780?epid=6041238838&hash=item2f6c708ab4:g:oA8AAOSwS4thf48w"], ["img", "https://i.ebayimg.com/thumbs/images/g/oA8AAOSwS4thf48w/s-l225.webp"], ["price", "CLP $681 818.18"], ["bids", "13 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 11 h (Tue, 12:39 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.051283"], ["updated_at", "2021-11-08 04:04:47.051283"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "ASUS TUF Gaming GeForce RTX 3090 OC 24GB GDDR 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/165163582897?epid=26041893274&hash=item26748445b1:g:ShQAAOSwM3Zhdw1b"], ["img", "https://i.ebayimg.com/thumbs/images/g/ShQAAOSwM3Zhdw1b/s-l225.webp"], ["price", "CLP $2 382 305.19"], ["bids", "17 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 12 h (Tue, 01:15 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.056804"], ["updated_at", "2021-11-08 04:04:47.056804"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 FTW3 ULTRA tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/224672770480?epid=23040748507&hash=item344f8a69b0:g:TCAAAOSwM5FhbhfB"], ["img", "https://i.ebayimg.com/thumbs/images/g/TCAAAOSwM5FhbhfB/s-l225.webp"], ["price", "CLP $2 394 480.52"], ["bids", "12 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 12 h (Tue, 01:18 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.061951"], ["updated_at", "2021-11-08 04:04:47.061951"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "ZOTAC GAMING GeForce RTX 3090 Trinity tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/185136444199?epid=19040738726&hash=item2b1afdf327:g:cogAAOSwAANhfXY7"], ["img", "https://i.ebayimg.com/thumbs/images/g/cogAAOSwAANhfXY7/s-l225.webp"], ["price", "CLP $1 968 344.16"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 12 h (Tue, 01:52 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.067926"], ["updated_at", "2021-11-08 04:04:47.067926"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA NVIDIA GeForce RTX 3090 gráficos 24GB tarjeta gráfica de velocidad de datos doble 6 (24GP53987KR)"], ["url", "https://www.ebay.com/itm/334204278879?epid=11047364407&hash=item4dd020985f:g:8AcAAOSwwpZhgWsT"], ["img", "https://i.ebayimg.com/thumbs/images/g/8AcAAOSwwpZhgWsT/s-l225.webp"], ["price", "CLP $2 333 603.90"], ["bids", "17 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 12 h (Tue, 01:54 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.076756"], ["updated_at", "2021-11-08 04:04:47.076756"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA RTX 3090 Founders Edition (Fe) Postcard Brand New"], ["url", "https://www.ebay.com/itm/234270967520?hash=item368ba346e0:g:seoAAOSwxOthXs5I"], ["img", "https://i.ebayimg.com/thumbs/images/g/seoAAOSwxOthXs5I/s-l225.webp"], ["price", "CLP $1 978 895.70"], ["bids", "41 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 14 h (Tue, 03:06 PM)"], ["shipping", "+CLP $18 757.31 por el envío"], ["created_at", "2021-11-08 04:04:47.090571"], ["updated_at", "2021-11-08 04:04:47.090571"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 xc3 ultra Gaming | nuevo & sellados, envío inmediato dispuesto"], ["url", "https://www.ebay.com/itm/144273500406?hash=item21975ee8f6:g:xEkAAOSwSkthgWk3"], ["img", "https://i.ebayimg.com/thumbs/images/g/xEkAAOSwSkthgWk3/s-l225.webp"], ["price", "CLP $2 250 876.62"], ["bids", "9 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 14 h (Tue, 03:31 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.096508"], ["updated_at", "2021-11-08 04:04:47.096508"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "GIGABYTE GeForce RTX 3090 Gaming OC 24GB Graphics Double Data Rate 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/275011860312?epid=2312930079&hash=item4007fbf758:g:aGsAAOSwu-FhgYF3"], ["img", "https://i.ebayimg.com/thumbs/images/g/aGsAAOSwu-FhgYF3/s-l225.webp"], ["price", "CLP $2 353 896.10"], ["bids", "20 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 14 h (Tue, 03:36 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.102960"], ["updated_at", "2021-11-08 04:04:47.102960"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (1.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 suprim X 24GB Graphics Double Data Rate 6 tarjeta de gráficos"], ["url", "https://www.ebay.com/itm/313736131644?epid=25043271335&hash=item490c21743c:g:hJUAAOSwEsFhgZuA"], ["img", "https://i.ebayimg.com/thumbs/images/g/hJUAAOSwEsFhgZuA/s-l225.webp"], ["price", "CLP $2 435 064.94"], ["bids", "5 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 16 h (Tue, 05:14 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.109969"], ["updated_at", "2021-11-08 04:04:47.109969"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "GeForce RTX 3090 MSI Ventus"], ["url", "https://www.ebay.com/itm/154681739144?hash=item2403c00788:g:QM0AAOSwScNhgakn"], ["img", "https://i.ebayimg.com/thumbs/images/g/QM0AAOSwScNhgakn/s-l225.webp"], ["price", "CLP $2 244 683.44"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 17 h (Tue, 06:21 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.117419"], ["updated_at", "2021-11-08 04:04:47.117419"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition gráficos 24GB tarjeta gráfica de velocidad de datos doble 6 Usado"], ["url", "https://www.ebay.com/itm/185149989020?epid=6041238838&hash=item2b1bcca09c:g:xgEAAOSwxMFhhu5J"], ["img", "https://i.ebayimg.com/thumbs/images/g/xgEAAOSwxMFhhu5J/s-l225.webp"], ["price", "CLP $2 069 805.19"], ["bids", "6 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 17 h (Tue, 06:43 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.121632"], ["updated_at", "2021-11-08 04:04:47.121632"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (31.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "GIGABYTE AORUS GeForce RTX 3090 XTREME waterforce WB tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/334204571310?epid=4043751242&hash=item4dd0250eae:g:NucAAOSwgLxhcxM8"], ["img", "https://i.ebayimg.com/thumbs/images/g/NucAAOSwgLxhcxM8/s-l225.webp"], ["price", "CLP $1 943 993.51"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 18 h (Tue, 07:50 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.158340"], ["updated_at", "2021-11-08 04:04:47.158340"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (23.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 suprim X 24gb"], ["url", "https://www.ebay.com/itm/403272892998?hash=item5de4f00246:g:-gUAAOSwyNdhgcNq"], ["img", "https://i.ebayimg.com/thumbs/images/g/-gUAAOSwyNdhgcNq/s-l225.webp"], ["price", "CLP $2 353 085.23"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 19 h (Tue, 08:21 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.187081"], ["updated_at", "2021-11-08 04:04:47.187081"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "ASUS NVIDIA GeForce RTX 3090 Triple Ventilador Modelo 24G ROG-STRIX-RTX3090-O24G - Juego"], ["url", "https://www.ebay.com/itm/165164263610?hash=item26748ea8ba:g:X7QAAOSwjRJhgdBh"], ["img", "https://i.ebayimg.com/thumbs/images/g/X7QAAOSwjRJhgdBh/s-l225.webp"], ["price", "CLP $2 313 311.69"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 20 h (Tue, 09:08 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.192771"], ["updated_at", "2021-11-08 04:04:47.192771"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Gigabyte NVIDIA GeForce RTX 3090 VISION tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/304206514755?epid=17045600372&hash=item46d41f0a43:g:YEYAAOSw6OBhfduH"], ["img", "https://i.ebayimg.com/thumbs/images/g/YEYAAOSw6OBhfduH/s-l225.webp"], ["price", "CLP $2 232 142.86"], ["bids", "5 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 20 h (Tue, 09:36 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.200183"], ["updated_at", "2021-11-08 04:04:47.200183"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (40.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX NVLINK puente (4 ranuras) para las tarjetas 3090"], ["url", "https://www.ebay.com/itm/175001522418?epid=17042399345&hash=item28bee750f2:g:KPMAAOSwCAZhffmq"], ["img", "https://i.ebayimg.com/thumbs/images/g/KPMAAOSwCAZhffmq/s-l225.webp"], ["price", "CLP $84 415.58"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 22 h (Tue, 11:15 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.244404"], ["updated_at", "2021-11-08 04:04:47.244404"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "GIGABYTE GeForce RTX 3090 Gaming OC 24GB Graphics Double Data Rate 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/384480275682?epid=2312930079&hash=item5984cf6ce2:g:A~4AAOSwp6VhchcB"], ["img", "https://i.ebayimg.com/thumbs/images/g/A~4AAOSwp6VhchcB/s-l225.webp"], ["price", "CLP $2 272 727.27"], ["bids", "18 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 22 h (Tue, 11:16 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.251034"], ["updated_at", "2021-11-08 04:04:47.251034"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (32.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition gráficos 24GB tarjeta gráfica de velocidad de datos doble 6 * SE ENVÍA AHORA **"], ["url", "https://www.ebay.com/itm/203683122766?epid=6048375302&hash=item2f6c75ce4e:g:Lf4AAOSwCbJhgX~m"], ["img", "https://i.ebayimg.com/thumbs/images/g/Lf4AAOSwCbJhgX~m/s-l225.webp"], ["price", "CLP $2 069 813.31"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 22 h (Wed, 12:00 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.288322"], ["updated_at", "2021-11-08 04:04:47.288322"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Gigabyte Aorus VGA NVIDIA RTX 3090 XTREM W24 DDR6X NUEVA SIN ESTRENAR!!!"], ["url", "https://www.ebay.com/itm/185143207205?epid=13043756369&hash=item2b1b652525:g:DZcAAOSwBJVhfCIJ"], ["img", "https://i.ebayimg.com/thumbs/images/g/DZcAAOSwBJVhfCIJ/s-l225.webp"], ["price", "CLP $2 907 382.31"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 8 h (Wed, 09:17 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.293635"], ["updated_at", "2021-11-08 04:04:47.293635"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (41.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "MSI Nvidia Geforce RTX 3090 Ventus 24gb"], ["url", "https://www.ebay.com/itm/294518277377?hash=item4492a84501:g:oDUAAOSwAANhgpzn"], ["img", "https://i.ebayimg.com/thumbs/images/g/oDUAAOSwAANhgpzn/s-l225.webp"], ["price", "CLP $1 827 500.81"], ["bids", "5 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 10 h (Wed, 11:44 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.341228"], ["updated_at", "2021-11-08 04:04:47.341228"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (29.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Fe FOUNDERS EDITION tasa de datos doble de gráficos 24GB 6X tarjeta gráfica NUEVO"], ["url", "https://www.ebay.com/itm/313737334481?epid=6041238838&hash=item490c33ced1:g:D3QAAOSw9gJf6c55"], ["img", "https://i.ebayimg.com/thumbs/images/g/D3QAAOSw9gJf6c55/s-l225.webp"], ["price", "CLP $2 434 253.25"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 11 h (Wed, 12:28 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.385355"], ["updated_at", "2021-11-08 04:04:47.385355"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "EVGA NVIDIA GeForce RTX 3090 FTW3 ULTRA - 24GB Graphics Double Data Rate 6 tarjeta de gráficos (24G-P5-3987-K)"], ["url", "https://www.ebay.com/itm/124986609524?epid=23040748507&hash=item1d19c84f74:g:GwoAAOSwl11hgrk1"], ["img", "https://i.ebayimg.com/thumbs/images/g/GwoAAOSwl11hgrk1/s-l225.webp"], ["price", "CLP $2 272 727.27"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 12 h (Wed, 01:28 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.389478"], ["updated_at", "2021-11-08 04:04:47.389478"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition"], ["url", "https://www.ebay.com/itm/255210150099?epid=6041238838&hash=item3b6bb5d8d3:g:xWUAAOSw9h1hbzPp"], ["img", "https://i.ebayimg.com/thumbs/images/g/xWUAAOSw9h1hbzPp/s-l225.webp"], ["price", "CLP $2 150 974.03"], ["bids", "14 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 12 h (Wed, 01:42 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.393848"], ["updated_at", "2021-11-08 04:04:47.393848"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "GIGABYTE GeForce RTX 3090 EAGLE tasa de datos doble de gráficos 24GB 6X"], ["url", "https://www.ebay.com/itm/393679394619?epid=25044675703&hash=item5ba91ed73b:g:GO0AAOSwANphITti"], ["img", "https://i.ebayimg.com/thumbs/images/g/GO0AAOSwANphITti/s-l225.webp"], ["price", "CLP $1 745 129.87"], ["bids", "32 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 13 h (Wed, 02:20 PM)"], ["shipping", "+CLP $40 584.42 por el envío"], ["created_at", "2021-11-08 04:04:47.399718"], ["updated_at", "2021-11-08 04:04:47.399718"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "ZOTAC RTX 3090 Amp Extreme sostener holoblack 24GB Graphics Double Data Rate 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/324864400804?epid=24046913109&hash=item4ba36d5da4:g:9BQAAOSwq2ZhZenT"], ["img", "https://i.ebayimg.com/thumbs/images/g/9BQAAOSwq2ZhZenT/s-l225.webp"], ["price", "CLP $2 394 480.52"], ["bids", "1 oferta de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 17 h (Wed, 06:06 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.404215"], ["updated_at", "2021-11-08 04:04:47.404215"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "ANUNCIO NUEVOMSI GeForce RTX 3090 TRIO 24GB gráficos para juegos X tasa de datos doble 6X Tarjeta Gráfica de Juegos"], ["url", "https://www.ebay.com/itm/185151856900?hash=item2b1be92104:g:oQoAAOSwMVthiGxx"], ["img", "https://i.ebayimg.com/thumbs/images/g/oQoAAOSwMVthiGxx/s-l225.webp"], ["price", "CLP $1 785 706.17"], ["bids", "1 oferta de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 20 h (Wed, 10:00 PM)"], ["shipping", "+CLP $51 907.47 de envío estimado"], ["created_at", "2021-11-08 04:04:47.408681"], ["updated_at", "2021-11-08 04:04:47.408681"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (39.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 Ventus tasa de datos doble de gráficos 3x 24GB 6X Tarjeta Gráfica OC Edition (912V388002)"], ["url", "https://www.ebay.com/itm/144275617716?epid=4041884252&hash=item21977f37b4:g:bAYAAOSwtjZhc1fD"], ["img", "https://i.ebayimg.com/thumbs/images/g/bAYAAOSwtjZhc1fD/s-l225.webp"], ["price", "CLP $1 481 331.17"], ["bids", "16 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 21 h (Wed, 10:31 PM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.452192"], ["updated_at", "2021-11-08 04:04:47.452192"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Asus Rog GeForce RTX 3090 STRIX"], ["url", "https://www.ebay.com/itm/403275858397?hash=item5de51d41dd:g:JfYAAOSwV5Fhg4ZJ"], ["img", "https://i.ebayimg.com/thumbs/images/g/JfYAAOSwV5Fhg4ZJ/s-l225.webp"], ["price", "CLP $2 069 805.19"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 3 d 3 h (Thu, 04:11 AM)"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.456803"], ["updated_at", "2021-11-08 04:04:47.456803"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 VENTUS 3X OC 24GB GDDR6X Graphics Card GENTLY USED"], ["url", "https://www.ebay.com/itm/373783208802?hash=item5707372362&_trkparms=ispr%3D1&amdata=enc%3AAQAGAAADINrDgBaBS3tX4oKQWocEsNuji%252F%252BYpG1GEz3PXa%252FfI43qqyvRipJuDnh0PZS2sMsSAMVA4Yny4z%252FRPvJXtrxh3NSXkPp%252FEtULl%252FM8zmbIIUqMVHXbOvCgBNlXAh7jIr4sQeWSd2rg9hQgjnyml84FKIPuxgSLtlNff91zb3cv7pMM4C7cx46OzPoTjF1sfFkIbniuweRQ31TmOO8gsKPhCzTt0S561zZVXdnLNXx%252F51jC3GTJ3ve4vF%252BNAauRolkFnDdLyULoOyESqk6aUn72KLUBINdrbLen3q2e5ctwq16QTgkt%252B00vkcwEAXAW47v7mHl9Iz1lavvj%252B%252FobY3gvH2h%252FKW2CenD%252FbdytSnj1FdxGejUK0NnqJR6qvfJXab1ru7NdgNLzzkI5MwORZDkrsFj8mk1wOBtlzOZhaj31Xkhy3uAMZSJeX1t2bcXWg8O9hTRRujGvrWg8%252BCZFm2F17NhL3V2pXkhwI8%252BUZTH2GzNeP5uRXTscVlZ5Rd%252FwssryByoeLwnuRWiDCEeAJEg6cMxS3TdSpJtZxcEr%252B%252BfglPaII17OkHt8RKd%252FHv7s9RUPumsSvbw7x5LgI5OD%252BSMa5JaiZb0evcvqiFgIBOqoCU%252FW64JpjVQbzVg1Rgg5OMwePw9pVZKQoSIN7vZy92MKqd5Wu%252BLUBxRBHKatSRCUjCcGsyVk3Oer0Ay3aSNrp4%252F%252BmBbPMLe0OtTqECLiXsEdaHOXWlM5ZvgUD4G0PxckhK%252BIlBvM7nh056aryxwHdANv6nlHkHOFezBxz4UFTNZ%252BljsXsPdEwYVyg8zt7fa1nOqwLXYYIncdSV2gsfiQTrYOpmd6fe5DMNmp5GK0y%252BnxaxlXG%252FjIMW%252B1AmnPCCwQcxqMFoOIe8HZHO8YHEHII%252BjjfFEiWUTI0ya6VmVFnHQW4rmd%252BXgY0PsGdVln8%252FwDz8fRCrEES7j6TOWVh7EoJ%252B7BK2q8ncJMEcJLhBbZ7AiVKzaTvOWiV%252FO%252B0VvVOoIh1CSfYSIRpRYRkkv058L%252FhW%252BXELnk%252BPS9U%252FkZ1U89q1Prn%252BfR9ydF4SwD5tg%252BXkvAobsT%7Campid%3APL_CLK"], ["img", "https://i.ebayimg.com/thumbs/images/g/c6kAAOSwRnZhh0Uf/s-l225.webp"], ["price", "CLP $2 353 084.42"], ["created_at", "2021-11-08 04:04:47.461220"], ["updated_at", "2021-11-08 04:04:47.461220"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "shipping", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "ANUNCIO NUEVOGIGABYTE AORUS GeForce RTX 3090 XTREME 24GB GV-N3090AORUS NON-LHR New, FAST 🚚💨"], ["url", "https://www.ebay.com/itm/224681250101?epid=25040731208&hash=item34500bcd35&_trkparms=ispr%3D1&amdata=enc%3AAQAGAAADMNueJPsLTakq8fpxp2tXpFS52BqtmbmLl0dbEsWKM6W9YL2bdlyPv30AJUQcAkUYJBERSUopsqOk2NotYrzwUgmNsw6vPs5EPPp49lWqV%252F%252FPb5Q9xhn709E7J5CgzAoBKgtu%252BiHpqIaP1D2WjrKSgYaBR5CeQS5bQz8AjLB0A0HOm3UOyFTMI%252BLm%252F9INRXJLGWSMir%252FWW3uWJjQuY8AGa1sl6%252FWJkLKrrZIikWa%252B2lstRuO5psv2y6HzeZF3HjHBmfAqRS1Vg0kkynA9iqfN%252FnViYS97PT%252BpMHKng9cA3hPyzalLNOD2WuNcAdi0UmitzdjNvX9%252BZRR5qCXmHMZzbk4JuWnoDXqm0EYhPQJbKfDG%252B3vfCc7YU%252B%252FoOdl1t%252F91lRplEHYX3ynm%252BNIlHXfHg6tdsHKBnCY%252FApRncNive4Xge2xvjM9k1Q2QHE%252F%252FBTMwbk4pO8LQ79pPn9ddUPsbelmz29i%252FQ9denaos4lTRoLPL3fJWYztndaRaWLJuMrHSLednCOPvDMJ2LRu%252FgCDupEGdFseRTMfE2LZysYAeuJHRlInqXvAD3dve%252B27ny4zjfU6030vsyHY%252FPLvKqwc1RDf6kPIBP816KXDrVEG9NCpELZX%252FpSCK0ebR4nIGH1PwjQ6OJMt7pvs6HjcuQi7JeZBCVJsp13XvZL9kMZQYaj7A0riiZGAdhqn%252Bi%252FhVWtX6F%252B3qQUGhsxIUI9HUSwJ%252BvVQGQJ5eaMaSysIpmHX1S7w0BQmKQwunIDbAouT3iqXKPJi%252FNHJWOzsS7TbzWuUajaYYZ9W%252Ft%252BbGB%252FWfUDd2R1eE0ZqWFqfOZpkPW2GjQoobS0RGR9N6sDxyKXbFJydGfuBnT4YD0%252BQXnpQkBj4wVPFkwYLZhfUvOFW6D6%252FFqQJ4NJE3XZiw%252FjwvCq8ATP%252B8%252BlLx5ZQimoxOuH17dfB9%252BGnFjE20%252By91M%252BcMcdCbA2q%252Bdp9iHDVlfHEJUq6QtpYstRdx9u5qdOJe05T%252FUoO8qseFec0OhEo2FcA8HDL5yDmtite736c2DEAD7Lvc%252B5h7RjXRQ71J7ECbDF%252FuGkBS7ILqDpDc1PaJpE2j2EUyJKb0MA%253D%253D%7Campid%3APL_CLK"], ["img", "https://i.ebayimg.com/thumbs/images/g/zn8AAOSw3SxhTqPQ/s-l225.webp"], ["price", "CLP $2 678 563.31"], ["shipping", "Envío no especificado"], ["created_at", "2021-11-08 04:04:47.466973"], ["updated_at", "2021-11-08 04:04:47.466973"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (40.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+Completed 200 OK in 82646ms (Views: 4.0ms | ActiveRecord: 603.9ms | Allocations: 3488922)
+
+
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:12:17 -0300
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+Completed 500 Internal Server Error in 163ms (Allocations: 28849)
+
+
+  
+Selenium::WebDriver::Error::WebDriverError (Unable to find Mozilla geckodriver. Please download the server from
+https://github.com/mozilla/geckodriver/releases and place it somewhere on your PATH.
+More info at https://developer.mozilla.org/en-US/docs/Mozilla/QA/Marionette/WebDriver.
+):
+  
+app/controllers/application_controller.rb:27:in `new'
+app/controllers/application_controller.rb:27:in `ebay_search'
+app/controllers/application_controller.rb:10:in `search'
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:13:56 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+Completed 200 OK in 230285ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 3539088)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (8535.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "gpu_buy_tool_development"[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (111.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "gpu_buy_tool_development"[0m
+  [1m[35m (43.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "gpu_buy_tool_test"[0m
+  [1m[35m (192.9ms)[0m  [1m[35mCREATE DATABASE "gpu_buy_tool_development" ENCODING = 'unicode'[0m
+  [1m[35m (121.5ms)[0m  [1m[35mCREATE DATABASE "gpu_buy_tool_test" ENCODING = 'unicode'[0m
+  [1m[35m (11.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6308664222383970195)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20211108034236)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (46.2ms)[0m  [1m[35mCREATE TABLE "products" ("id" bigserial primary key, "title" character varying, "url" character varying, "img" character varying, "price" character varying, "bids" character varying, "time_left" character varying, "shipping" character varying, "item_id" integer, "seller_id" integer, "model_id" integer, "brand_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "status" boolean DEFAULT TRUE)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211108034236"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateSellers (20211108034335)
+  [1m[36mTRANSACTION (40.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "sellers" ("id" bigserial primary key, "username" character varying, "stars" character varying, "feedback" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "status" boolean DEFAULT TRUE)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211108034335"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-11-08 04:20:18.227481"], ["updated_at", "2021-11-08 04:20:18.227481"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6308664222383970195)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:23:29 -0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+Completed 500 Internal Server Error in 76961ms (ActiveRecord: 6.6ms | Allocations: 3486157)
+
+
+  
+ActiveModel::RangeError (185147469047 is out of range for ActiveModel::Type::Integer with limit 4 bytes):
+  
+app/controllers/application_controller.rb:12:in `block in search'
+app/controllers/application_controller.rb:11:in `each'
+app/controllers/application_controller.rb:11:in `search'
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:25:39 -0300
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+Completed 200 OK in 83786ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 3475159)
+
+
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:30:44 -0300
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+Completed 500 Internal Server Error in 75794ms (ActiveRecord: 3.7ms | Allocations: 3480141)
+
+
+  
+ActiveModel::RangeError (185147469047 is out of range for ActiveModel::Type::Integer with limit 4 bytes):
+  
+app/controllers/application_controller.rb:12:in `block in search'
+app/controllers/application_controller.rb:11:in `each'
+app/controllers/application_controller.rb:11:in `search'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (85.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "gpu_buy_tool_development"[0m
+  [1m[35m (79.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "gpu_buy_tool_test"[0m
+  [1m[35m (186.2ms)[0m  [1m[35mCREATE DATABASE "gpu_buy_tool_development" ENCODING = 'unicode'[0m
+  [1m[35m (76.7ms)[0m  [1m[35mCREATE DATABASE "gpu_buy_tool_test" ENCODING = 'unicode'[0m
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6308664222383970195)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20211108034236)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (46.1ms)[0m  [1m[35mCREATE TABLE "products" ("id" bigserial primary key, "title" character varying, "url" character varying, "img" character varying, "price" character varying, "bids" character varying, "time_left" character varying, "shipping" character varying, "item_id" character varying, "seller_id" character varying, "model_id" character varying, "brand_id" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "status" boolean DEFAULT TRUE)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211108034236"]]
+  [1m[36mTRANSACTION (39.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateSellers (20211108034335)
+  [1m[36mTRANSACTION (40.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.7ms)[0m  [1m[35mCREATE TABLE "sellers" ("id" bigserial primary key, "username" character varying, "stars" character varying, "feedback" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "status" boolean DEFAULT TRUE)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211108034335"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-11-08 04:33:32.811907"], ["updated_at", "2021-11-08 04:33:32.811907"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6308664222383970195)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:33:41 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (41.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Almohadilla Térmica modificado NVIDIA RTX 3090 Founders Edition"], ["url", "https://www.ebay.com/itm/185147469047?hash=item2b1ba62cf7:g:~LsAAOSwd8FhhRrZ"], ["img", "https://i.ebayimg.com/thumbs/images/g/~LsAAOSwd8FhhRrZ/s-l225.webp"], ["price", "CLP $1 916 193.18"], ["bids", "18 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 7 h 31 min (Today 09:05 AM)"], ["shipping", "Envío no especificado"], ["item_id", "185147469047"], ["created_at", "2021-11-08 04:35:10.047612"], ["updated_at", "2021-11-08 04:35:10.047612"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 FTW3 ULTRA tasa de datos doble de gráficos 24GB 6X"], ["url", "https://www.ebay.com/itm/403264120143?hash=item5de46a254f:g:sQ4AAOSwLZthe~ds"], ["img", "https://i.ebayimg.com/thumbs/images/g/sQ4AAOSwLZthe~ds/s-l225.webp"], ["price", "CLP $2 069 805.19"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 9 h 11 min (Today 10:45 AM)"], ["shipping", "Envío no especificado"], ["item_id", "403264120143"], ["created_at", "2021-11-08 04:35:10.095842"], ["updated_at", "2021-11-08 04:35:10.095842"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA NVIDIA GeForce RTX 3090 gráficos 24GB tarjeta gráfica de velocidad de datos doble 6 (24GP53987KR)"], ["url", "https://www.ebay.com/itm/124989930655?epid=11047364407&hash=item1d19fafc9f:g:fpEAAOSwEFNhAWpE"], ["img", "https://i.ebayimg.com/thumbs/images/g/fpEAAOSwEFNhAWpE/s-l225.webp"], ["price", "CLP $2 150 974.03"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 11 h 9 min (Today 12:43 PM)"], ["shipping", "Envío no especificado"], ["item_id", "124989930655"], ["created_at", "2021-11-08 04:35:10.101804"], ["updated_at", "2021-11-08 04:35:10.101804"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 XC3 ULTRA tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/185139813401?epid=14040736177&hash=item2b1b315c19:g:IXQAAOSwUdVhgBob"], ["img", "https://i.ebayimg.com/thumbs/images/g/IXQAAOSwUdVhgBob/s-l225.webp"], ["price", "CLP $1 960 227.27"], ["bids", "28 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 12 h 15 min (Today 01:49 PM)"], ["shipping", "Envío no especificado"], ["item_id", "185139813401"], ["created_at", "2021-11-08 04:35:10.111041"], ["updated_at", "2021-11-08 04:35:10.111041"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA GeForce RTX3090 FTW3 ULTRA 24GB Graphics Double Data Rate 6X P5-3987-KR con Caja Original"], ["url", "https://www.ebay.com/itm/175003783368?hash=item28bf09d0c8:g:tPsAAOSwAnthgCYJ"], ["img", "https://i.ebayimg.com/thumbs/images/g/tPsAAOSwAnthgCYJ/s-l225.webp"], ["price", "CLP $2 192 370.13"], ["bids", "43 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 13 h 9 min (Today 02:44 PM)"], ["shipping", "Envío no especificado"], ["item_id", "175003783368"], ["created_at", "2021-11-08 04:35:10.117037"], ["updated_at", "2021-11-08 04:35:10.117037"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition 24GB Graphics Double Data Rate 6 tarjeta gráfica-TITANIO/Bl.."], ["url", "https://www.ebay.com/itm/353752290357?epid=6041238838&hash=item525d479435:g:7-AAAOSwmCdhWzms"], ["img", "https://i.ebayimg.com/thumbs/images/g/7-AAAOSwmCdhWzms/s-l225.webp"], ["price", "CLP $2 314 123.38"], ["bids", "16 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 14 h 21 min (Today 03:55 PM)"], ["shipping", "Envío no especificado"], ["item_id", "353752290357"], ["created_at", "2021-11-08 04:35:10.122815"], ["updated_at", "2021-11-08 04:35:10.122815"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "GIGABYTE GeForce RTX 3090 Vision OC tarjeta de gráficos 24G nuevo sellado de la GPU"], ["url", "https://www.ebay.com/itm/255206917334?epid=4042098506&hash=item3b6b8484d6:g:XRkAAOSw6ZJhgAg~"], ["img", "https://i.ebayimg.com/thumbs/images/g/XRkAAOSw6ZJhgAg~/s-l225.webp"], ["price", "CLP $2 314 123.38"], ["bids", "4 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 15 h 26 min (Today 05:00 PM)"], ["shipping", "Envío no especificado"], ["item_id", "255206917334"], ["created_at", "2021-11-08 04:35:10.127263"], ["updated_at", "2021-11-08 04:35:10.127263"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Nvidia GeForce RTX 3090 Founders Edition 24gb RTX 3090"], ["url", "https://www.ebay.com/itm/403274870381?hash=item5de50e2e6d:g:L3QAAOSwkalhgVg9"], ["img", "https://i.ebayimg.com/thumbs/images/g/L3QAAOSwkalhgVg9/s-l225.webp"], ["price", "CLP $1 781 655.84"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 16 h (Today 05:35 PM)"], ["shipping", "Envío no especificado"], ["item_id", "403274870381"], ["created_at", "2021-11-08 04:35:10.131635"], ["updated_at", "2021-11-08 04:35:10.131635"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Zotac Geforce RTX 3090 Trinity OC 24GB"], ["url", "https://www.ebay.com/itm/373776819215?hash=item5706d5a40f:g:ZxMAAOSwTkFhgFTn"], ["img", "https://i.ebayimg.com/thumbs/images/g/ZxMAAOSwTkFhgFTn/s-l225.webp"], ["price", "CLP $1 710 339.29"], ["bids", "9 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 16 h 30 min (Today 06:04 PM)"], ["shipping", "Envío no especificado"], ["item_id", "373776819215"], ["created_at", "2021-11-08 04:35:10.137964"], ["updated_at", "2021-11-08 04:35:10.137964"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 suprim X 24gb"], ["url", "https://www.ebay.com/itm/373776820333?hash=item5706d5a86d:g:D3MAAOSwZq9hgFbi"], ["img", "https://i.ebayimg.com/thumbs/images/g/D3MAAOSwZq9hgFbi/s-l225.webp"], ["price", "CLP $1 970 941.56"], ["bids", "6 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 16 h 33 min (Today 06:07 PM)"], ["shipping", "Envío no especificado"], ["item_id", "373776820333"], ["created_at", "2021-11-08 04:35:10.143130"], ["updated_at", "2021-11-08 04:35:10.143130"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (39.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition tasa de datos doble de gráficos 24GB 6X tarjeta gráfica Nuevo Sellado"], ["url", "https://www.ebay.com/itm/115075187756?epid=6041238838&hash=item1acb04042c:g:cb0AAOSwT9NhgGa9"], ["img", "https://i.ebayimg.com/thumbs/images/g/cb0AAOSwT9NhgGa9/s-l225.webp"], ["price", "CLP $2 232 142.86"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 17 h 44 min (Today 07:19 PM)"], ["shipping", "Envío no especificado"], ["item_id", "115075187756"], ["created_at", "2021-11-08 04:35:10.186279"], ["updated_at", "2021-11-08 04:35:10.186279"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition 24GB Graphics Double Data Rate 6 tarjeta gráfica -..."], ["url", "https://www.ebay.com/itm/393672275416?epid=6041238838&hash=item5ba8b235d8:g:JjcAAOSweTlhW4e9"], ["img", "https://i.ebayimg.com/thumbs/images/g/JjcAAOSweTlhW4e9/s-l225.webp"], ["price", "CLP $4 058 441.56"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 18 h 31 min (Today 08:05 PM)"], ["shipping", "Envío no especificado"], ["item_id", "393672275416"], ["created_at", "2021-11-08 04:35:10.193151"], ["updated_at", "2021-11-08 04:35:10.193151"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Gigabyte aorus GeForce RTX 3090 Xtreme 24gb GDDR tarjeta gráfica 6x"], ["url", "https://www.ebay.com/itm/353752590455?epid=2311790212&hash=item525d4c2877:g:9coAAOSwylRhZv9n"], ["img", "https://i.ebayimg.com/thumbs/images/g/9coAAOSwylRhZv9n/s-l225.webp"], ["price", "CLP $2 335 284.50"], ["bids", "61 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 18 h 52 min (Today 08:26 PM)"], ["shipping", "Envío no especificado"], ["item_id", "353752590455"], ["created_at", "2021-11-08 04:35:10.197543"], ["updated_at", "2021-11-08 04:35:10.197543"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA-GeForce RTX 3090 XC3 Juegos Ultra 24GB"], ["url", "https://www.ebay.com/itm/403279376320?hash=item5de552efc0:g:pOsAAOSwMCVhhdeo"], ["img", "https://i.ebayimg.com/thumbs/images/g/pOsAAOSwMCVhhdeo/s-l225.webp"], ["price", "CLP $1 785 714.29"], ["bids", "1 oferta de subasta"], ["time_left", "Tiempo restante\nQuedan 20 h 47 min (Today 10:21 PM)"], ["shipping", "Envío no especificado"], ["item_id", "403279376320"], ["created_at", "2021-11-08 04:35:10.203709"], ["updated_at", "2021-11-08 04:35:10.203709"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Dell Alienware Nvidia RTX 3090 tarjeta de gráficos 24GB/tarjeta de video"], ["url", "https://www.ebay.com/itm/324861089363?hash=item4ba33ad653:g:wksAAOSwpjBhgJgG"], ["img", "https://i.ebayimg.com/thumbs/images/g/wksAAOSwpjBhgJgG/s-l225.webp"], ["price", "CLP $1 948 863.64"], ["bids", "76 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 21 h 12 min (Today 10:47 PM)"], ["shipping", "Envío no especificado"], ["item_id", "324861089363"], ["created_at", "2021-11-08 04:35:10.208498"], ["updated_at", "2021-11-08 04:35:10.208498"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Dell NVIDIA GeForce RTX 3090 tarjeta de gráficos 24GB Graphics Double Data Rate minería GPU de juegos 6X"], ["url", "https://www.ebay.com/itm/124990652971?hash=item1d1a06022b:g:J4UAAOSwjgJhhewx"], ["img", "https://i.ebayimg.com/thumbs/images/g/J4UAAOSwjgJhhewx/s-l225.webp"], ["price", "CLP $2 677 759.74"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 22 h 14 min (Today 11:49 PM)"], ["shipping", "Envío no especificado"], ["item_id", "124990652971"], ["created_at", "2021-11-08 04:35:10.212747"], ["updated_at", "2021-11-08 04:35:10.212747"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition gráficos 24GB tarjeta gráfica de velocidad de datos doble 6"], ["url", "https://www.ebay.com/itm/373777164259?epid=6041238838&hash=item5706dae7e3:g:Zq8AAOSwl5ZhgK9i"], ["img", "https://i.ebayimg.com/thumbs/images/g/Zq8AAOSwl5ZhgK9i/s-l225.webp"], ["price", "CLP $1 948 051.95"], ["bids", "20 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 22 h 52 min (Tue, 12:26 AM)"], ["shipping", "Envío no especificado"], ["item_id", "373777164259"], ["created_at", "2021-11-08 04:35:10.218312"], ["updated_at", "2021-11-08 04:35:10.218312"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "GPU asus Rog denominada RTX 3090 OC"], ["url", "https://www.ebay.com/itm/255207953231?hash=item3b6b94534f:g:gCQAAOSw9F9hgSMO"], ["img", "https://i.ebayimg.com/thumbs/images/g/gCQAAOSw9F9hgSMO/s-l225.webp"], ["price", "CLP $3 376 314.94"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 7 h (Tue, 08:43 AM)"], ["shipping", "Envío no especificado"], ["item_id", "255207953231"], ["created_at", "2021-11-08 04:35:10.223661"], ["updated_at", "2021-11-08 04:35:10.223661"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 FTW3 ULTRA tasa de datos doble de gráficos 24GB 6X tarjeta gráfica con Caja Original"], ["url", "https://www.ebay.com/itm/324869475663?epid=23040748507&hash=item4ba3bacd4f:g:KD8AAOSwoNlheJdg"], ["img", "https://i.ebayimg.com/thumbs/images/g/KD8AAOSwoNlheJdg/s-l225.webp"], ["price", "CLP $2 232 142.86"], ["bids", "15 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 8 h (Tue, 09:46 AM)"], ["shipping", "Envío no especificado"], ["item_id", "324869475663"], ["created_at", "2021-11-08 04:35:10.227854"], ["updated_at", "2021-11-08 04:35:10.227854"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 suprim X 24GB Graphics Double Data Rate 6X tarjeta gráfica con Caja Original"], ["url", "https://www.ebay.com/itm/324869489063?epid=25043271335&hash=item4ba3bb01a7:g:n9cAAOSwD~pheJkw"], ["img", "https://i.ebayimg.com/thumbs/images/g/n9cAAOSwD~pheJkw/s-l225.webp"], ["price", "CLP $1 765 422.08"], ["bids", "15 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 8 h (Tue, 09:59 AM)"], ["shipping", "Envío no especificado"], ["item_id", "324869489063"], ["created_at", "2021-11-08 04:35:10.233236"], ["updated_at", "2021-11-08 04:35:10.233236"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "ASUS ROG Strix GeForce RTX 3090 OC Blanca 24GB Graphics Double Data Rate 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/124991358686?hash=item1d1a10c6de:g:jtIAAOSw7hNhhpTH"], ["img", "https://i.ebayimg.com/thumbs/images/g/jtIAAOSw7hNhhpTH/s-l225.webp"], ["price", "CLP $2 556 818.18"], ["bids", "19 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 10 h (Tue, 11:47 AM)"], ["shipping", "Envío no especificado"], ["item_id", "124991358686"], ["created_at", "2021-11-08 04:35:10.238466"], ["updated_at", "2021-11-08 04:35:10.238466"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "PNY GeForce RTX 3090 XLR8 Juegos épica-X Rgb Triple Ventilador Edition 24GB GDDR 6X"], ["url", "https://www.ebay.com/itm/133919342668?epid=9040737076&hash=item1f2e37004c:g:glwAAOSw3lNhfWAz"], ["img", "https://i.ebayimg.com/thumbs/images/g/glwAAOSw3lNhfWAz/s-l225.webp"], ["price", "CLP $2 079 343.34"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 10 h (Tue, 12:13 PM)"], ["shipping", "Envío no especificado"], ["item_id", "133919342668"], ["created_at", "2021-11-08 04:35:10.243551"], ["updated_at", "2021-11-08 04:35:10.243551"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition Graphics Double Data Rate 6 piezas de la unidad de tarjeta de gráficos"], ["url", "https://www.ebay.com/itm/203682777780?epid=6041238838&hash=item2f6c708ab4:g:oA8AAOSwS4thf48w"], ["img", "https://i.ebayimg.com/thumbs/images/g/oA8AAOSwS4thf48w/s-l225.webp"], ["price", "CLP $681 818.18"], ["bids", "13 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 11 h (Tue, 12:39 PM)"], ["shipping", "Envío no especificado"], ["item_id", "203682777780"], ["created_at", "2021-11-08 04:35:10.247807"], ["updated_at", "2021-11-08 04:35:10.247807"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "ASUS TUF Gaming GeForce RTX 3090 OC 24GB GDDR 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/165163582897?epid=26041893274&hash=item26748445b1:g:ShQAAOSwM3Zhdw1b"], ["img", "https://i.ebayimg.com/thumbs/images/g/ShQAAOSwM3Zhdw1b/s-l225.webp"], ["price", "CLP $2 382 305.19"], ["bids", "17 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 11 h (Tue, 01:15 PM)"], ["shipping", "Envío no especificado"], ["item_id", "165163582897"], ["created_at", "2021-11-08 04:35:10.253011"], ["updated_at", "2021-11-08 04:35:10.253011"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 FTW3 ULTRA tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/224672770480?epid=23040748507&hash=item344f8a69b0:g:TCAAAOSwM5FhbhfB"], ["img", "https://i.ebayimg.com/thumbs/images/g/TCAAAOSwM5FhbhfB/s-l225.webp"], ["price", "CLP $2 394 480.52"], ["bids", "12 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 11 h (Tue, 01:18 PM)"], ["shipping", "Envío no especificado"], ["item_id", "224672770480"], ["created_at", "2021-11-08 04:35:10.257790"], ["updated_at", "2021-11-08 04:35:10.257790"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "ZOTAC GAMING GeForce RTX 3090 Trinity tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/185136444199?epid=19040738726&hash=item2b1afdf327:g:cogAAOSwAANhfXY7"], ["img", "https://i.ebayimg.com/thumbs/images/g/cogAAOSwAANhfXY7/s-l225.webp"], ["price", "CLP $1 968 344.16"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 12 h (Tue, 01:52 PM)"], ["shipping", "Envío no especificado"], ["item_id", "185136444199"], ["created_at", "2021-11-08 04:35:10.262074"], ["updated_at", "2021-11-08 04:35:10.262074"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA NVIDIA GeForce RTX 3090 gráficos 24GB tarjeta gráfica de velocidad de datos doble 6 (24GP53987KR)"], ["url", "https://www.ebay.com/itm/334204278879?epid=11047364407&hash=item4dd020985f:g:8AcAAOSwwpZhgWsT"], ["img", "https://i.ebayimg.com/thumbs/images/g/8AcAAOSwwpZhgWsT/s-l225.webp"], ["price", "CLP $2 333 603.90"], ["bids", "17 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 12 h (Tue, 01:54 PM)"], ["shipping", "Envío no especificado"], ["item_id", "334204278879"], ["created_at", "2021-11-08 04:35:10.268139"], ["updated_at", "2021-11-08 04:35:10.268139"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA RTX 3090 Founders Edition (Fe) Postcard Brand New"], ["url", "https://www.ebay.com/itm/234270967520?hash=item368ba346e0:g:seoAAOSwxOthXs5I"], ["img", "https://i.ebayimg.com/thumbs/images/g/seoAAOSwxOthXs5I/s-l225.webp"], ["price", "CLP $1 978 895.70"], ["bids", "41 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 13 h (Tue, 03:06 PM)"], ["shipping", "+CLP $18 757.31 por el envío"], ["item_id", "234270967520"], ["created_at", "2021-11-08 04:35:10.272608"], ["updated_at", "2021-11-08 04:35:10.272608"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (40.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA GeForce RTX 3090 xc3 ultra Gaming | nuevo & sellados, envío inmediato dispuesto"], ["url", "https://www.ebay.com/itm/144273500406?hash=item21975ee8f6:g:xEkAAOSwSkthgWk3"], ["img", "https://i.ebayimg.com/thumbs/images/g/xEkAAOSwSkthgWk3/s-l225.webp"], ["price", "CLP $2 250 876.62"], ["bids", "9 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 13 h (Tue, 03:31 PM)"], ["shipping", "Envío no especificado"], ["item_id", "144273500406"], ["created_at", "2021-11-08 04:35:10.317400"], ["updated_at", "2021-11-08 04:35:10.317400"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "GIGABYTE GeForce RTX 3090 Gaming OC 24GB Graphics Double Data Rate 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/275011860312?epid=2312930079&hash=item4007fbf758:g:aGsAAOSwu-FhgYF3"], ["img", "https://i.ebayimg.com/thumbs/images/g/aGsAAOSwu-FhgYF3/s-l225.webp"], ["price", "CLP $2 353 896.10"], ["bids", "20 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 14 h (Tue, 03:36 PM)"], ["shipping", "Envío no especificado"], ["item_id", "275011860312"], ["created_at", "2021-11-08 04:35:10.323688"], ["updated_at", "2021-11-08 04:35:10.323688"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 suprim X 24GB Graphics Double Data Rate 6 tarjeta de gráficos"], ["url", "https://www.ebay.com/itm/313736131644?epid=25043271335&hash=item490c21743c:g:hJUAAOSwEsFhgZuA"], ["img", "https://i.ebayimg.com/thumbs/images/g/hJUAAOSwEsFhgZuA/s-l225.webp"], ["price", "CLP $2 435 064.94"], ["bids", "5 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 15 h (Tue, 05:14 PM)"], ["shipping", "Envío no especificado"], ["item_id", "313736131644"], ["created_at", "2021-11-08 04:35:10.328044"], ["updated_at", "2021-11-08 04:35:10.328044"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "GeForce RTX 3090 MSI Ventus"], ["url", "https://www.ebay.com/itm/154681739144?hash=item2403c00788:g:QM0AAOSwScNhgakn"], ["img", "https://i.ebayimg.com/thumbs/images/g/QM0AAOSwScNhgakn/s-l225.webp"], ["price", "CLP $2 244 683.44"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 16 h (Tue, 06:21 PM)"], ["shipping", "Envío no especificado"], ["item_id", "154681739144"], ["created_at", "2021-11-08 04:35:10.333420"], ["updated_at", "2021-11-08 04:35:10.333420"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition gráficos 24GB tarjeta gráfica de velocidad de datos doble 6 Usado"], ["url", "https://www.ebay.com/itm/185149989020?epid=6041238838&hash=item2b1bcca09c:g:xgEAAOSwxMFhhu5J"], ["img", "https://i.ebayimg.com/thumbs/images/g/xgEAAOSwxMFhhu5J/s-l225.webp"], ["price", "CLP $2 069 805.19"], ["bids", "6 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 17 h (Tue, 06:43 PM)"], ["shipping", "Envío no especificado"], ["item_id", "185149989020"], ["created_at", "2021-11-08 04:35:10.343654"], ["updated_at", "2021-11-08 04:35:10.343654"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "GIGABYTE AORUS GeForce RTX 3090 XTREME waterforce WB tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/334204571310?epid=4043751242&hash=item4dd0250eae:g:NucAAOSwgLxhcxM8"], ["img", "https://i.ebayimg.com/thumbs/images/g/NucAAOSwgLxhcxM8/s-l225.webp"], ["price", "CLP $1 943 993.51"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 18 h (Tue, 07:50 PM)"], ["shipping", "Envío no especificado"], ["item_id", "334204571310"], ["created_at", "2021-11-08 04:35:10.347730"], ["updated_at", "2021-11-08 04:35:10.347730"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 suprim X 24gb"], ["url", "https://www.ebay.com/itm/403272892998?hash=item5de4f00246:g:-gUAAOSwyNdhgcNq"], ["img", "https://i.ebayimg.com/thumbs/images/g/-gUAAOSwyNdhgcNq/s-l225.webp"], ["price", "CLP $2 353 085.23"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 18 h (Tue, 08:21 PM)"], ["shipping", "Envío no especificado"], ["item_id", "403272892998"], ["created_at", "2021-11-08 04:35:10.354234"], ["updated_at", "2021-11-08 04:35:10.354234"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "ASUS NVIDIA GeForce RTX 3090 Triple Ventilador Modelo 24G ROG-STRIX-RTX3090-O24G - Juego"], ["url", "https://www.ebay.com/itm/165164263610?hash=item26748ea8ba:g:X7QAAOSwjRJhgdBh"], ["img", "https://i.ebayimg.com/thumbs/images/g/X7QAAOSwjRJhgdBh/s-l225.webp"], ["price", "CLP $2 313 311.69"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 19 h (Tue, 09:08 PM)"], ["shipping", "Envío no especificado"], ["item_id", "165164263610"], ["created_at", "2021-11-08 04:35:10.359035"], ["updated_at", "2021-11-08 04:35:10.359035"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Gigabyte NVIDIA GeForce RTX 3090 VISION tasa de datos doble de gráficos 24GB 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/304206514755?epid=17045600372&hash=item46d41f0a43:g:YEYAAOSw6OBhfduH"], ["img", "https://i.ebayimg.com/thumbs/images/g/YEYAAOSw6OBhfduH/s-l225.webp"], ["price", "CLP $2 232 142.86"], ["bids", "5 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 20 h (Tue, 09:36 PM)"], ["shipping", "Envío no especificado"], ["item_id", "304206514755"], ["created_at", "2021-11-08 04:35:10.364030"], ["updated_at", "2021-11-08 04:35:10.364030"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX NVLINK puente (4 ranuras) para las tarjetas 3090"], ["url", "https://www.ebay.com/itm/175001522418?epid=17042399345&hash=item28bee750f2:g:KPMAAOSwCAZhffmq"], ["img", "https://i.ebayimg.com/thumbs/images/g/KPMAAOSwCAZhffmq/s-l225.webp"], ["price", "CLP $84 415.58"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 21 h (Tue, 11:15 PM)"], ["shipping", "Envío no especificado"], ["item_id", "175001522418"], ["created_at", "2021-11-08 04:35:10.370353"], ["updated_at", "2021-11-08 04:35:10.370353"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "GIGABYTE GeForce RTX 3090 Gaming OC 24GB Graphics Double Data Rate 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/384480275682?epid=2312930079&hash=item5984cf6ce2:g:A~4AAOSwp6VhchcB"], ["img", "https://i.ebayimg.com/thumbs/images/g/A~4AAOSwp6VhchcB/s-l225.webp"], ["price", "CLP $2 272 727.27"], ["bids", "18 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 21 h (Tue, 11:16 PM)"], ["shipping", "Envío no especificado"], ["item_id", "384480275682"], ["created_at", "2021-11-08 04:35:10.375363"], ["updated_at", "2021-11-08 04:35:10.375363"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (39.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition gráficos 24GB tarjeta gráfica de velocidad de datos doble 6 * SE ENVÍA AHORA **"], ["url", "https://www.ebay.com/itm/203683122766?epid=6048375302&hash=item2f6c75ce4e:g:Lf4AAOSwCbJhgX~m"], ["img", "https://i.ebayimg.com/thumbs/images/g/Lf4AAOSwCbJhgX~m/s-l225.webp"], ["price", "CLP $2 069 813.31"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 22 h (Wed, 12:00 AM)"], ["shipping", "Envío no especificado"], ["item_id", "203683122766"], ["created_at", "2021-11-08 04:35:10.418847"], ["updated_at", "2021-11-08 04:35:10.418847"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Gigabyte Aorus VGA NVIDIA RTX 3090 XTREM W24 DDR6X NUEVA SIN ESTRENAR!!!"], ["url", "https://www.ebay.com/itm/185143207205?epid=13043756369&hash=item2b1b652525:g:DZcAAOSwBJVhfCIJ"], ["img", "https://i.ebayimg.com/thumbs/images/g/DZcAAOSwBJVhfCIJ/s-l225.webp"], ["price", "CLP $2 907 382.31"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 7 h (Wed, 09:17 AM)"], ["shipping", "Envío no especificado"], ["item_id", "185143207205"], ["created_at", "2021-11-08 04:35:10.425658"], ["updated_at", "2021-11-08 04:35:10.425658"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (40.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "MSI Nvidia Geforce RTX 3090 Ventus 24gb"], ["url", "https://www.ebay.com/itm/294518277377?hash=item4492a84501:g:oDUAAOSwAANhgpzn"], ["img", "https://i.ebayimg.com/thumbs/images/g/oDUAAOSwAANhgpzn/s-l225.webp"], ["price", "CLP $1 827 500.81"], ["bids", "5 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 10 h (Wed, 11:44 AM)"], ["shipping", "Envío no especificado"], ["item_id", "294518277377"], ["created_at", "2021-11-08 04:35:10.469602"], ["updated_at", "2021-11-08 04:35:10.469602"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Fe FOUNDERS EDITION tasa de datos doble de gráficos 24GB 6X tarjeta gráfica NUEVO"], ["url", "https://www.ebay.com/itm/313737334481?epid=6041238838&hash=item490c33ced1:g:D3QAAOSw9gJf6c55"], ["img", "https://i.ebayimg.com/thumbs/images/g/D3QAAOSw9gJf6c55/s-l225.webp"], ["price", "CLP $2 434 253.25"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 10 h (Wed, 12:28 PM)"], ["shipping", "Envío no especificado"], ["item_id", "313737334481"], ["created_at", "2021-11-08 04:35:10.475976"], ["updated_at", "2021-11-08 04:35:10.475976"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "EVGA NVIDIA GeForce RTX 3090 FTW3 ULTRA - 24GB Graphics Double Data Rate 6 tarjeta de gráficos (24G-P5-3987-K)"], ["url", "https://www.ebay.com/itm/124986609524?epid=23040748507&hash=item1d19c84f74:g:GwoAAOSwl11hgrk1"], ["img", "https://i.ebayimg.com/thumbs/images/g/GwoAAOSwl11hgrk1/s-l225.webp"], ["price", "CLP $2 272 727.27"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 11 h (Wed, 01:28 PM)"], ["shipping", "Envío no especificado"], ["item_id", "124986609524"], ["created_at", "2021-11-08 04:35:10.485376"], ["updated_at", "2021-11-08 04:35:10.485376"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "NVIDIA GeForce RTX 3090 Founders Edition"], ["url", "https://www.ebay.com/itm/255210150099?epid=6041238838&hash=item3b6bb5d8d3:g:xWUAAOSw9h1hbzPp"], ["img", "https://i.ebayimg.com/thumbs/images/g/xWUAAOSw9h1hbzPp/s-l225.webp"], ["price", "CLP $2 150 974.03"], ["bids", "14 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 12 h (Wed, 01:42 PM)"], ["shipping", "Envío no especificado"], ["item_id", "255210150099"], ["created_at", "2021-11-08 04:35:10.491130"], ["updated_at", "2021-11-08 04:35:10.491130"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (4.7ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "GIGABYTE GeForce RTX 3090 EAGLE tasa de datos doble de gráficos 24GB 6X"], ["url", "https://www.ebay.com/itm/393679394619?epid=25044675703&hash=item5ba91ed73b:g:GO0AAOSwANphITti"], ["img", "https://i.ebayimg.com/thumbs/images/g/GO0AAOSwANphITti/s-l225.webp"], ["price", "CLP $1 745 129.87"], ["bids", "32 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 12 h (Wed, 02:20 PM)"], ["shipping", "+CLP $40 584.42 por el envío"], ["item_id", "393679394619"], ["created_at", "2021-11-08 04:35:10.494990"], ["updated_at", "2021-11-08 04:35:10.494990"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (1.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "ZOTAC RTX 3090 Amp Extreme sostener holoblack 24GB Graphics Double Data Rate 6X Tarjeta Gráfica"], ["url", "https://www.ebay.com/itm/324864400804?epid=24046913109&hash=item4ba36d5da4:g:9BQAAOSwq2ZhZenT"], ["img", "https://i.ebayimg.com/thumbs/images/g/9BQAAOSwq2ZhZenT/s-l225.webp"], ["price", "CLP $2 394 480.52"], ["bids", "1 oferta de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 16 h (Wed, 06:06 PM)"], ["shipping", "Envío no especificado"], ["item_id", "324864400804"], ["created_at", "2021-11-08 04:35:10.507230"], ["updated_at", "2021-11-08 04:35:10.507230"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "ANUNCIO NUEVOMSI GeForce RTX 3090 TRIO 24GB gráficos para juegos X tasa de datos doble 6X Tarjeta Gráfica de Juegos"], ["url", "https://www.ebay.com/itm/185151856900?hash=item2b1be92104:g:oQoAAOSwMVthiGxx"], ["img", "https://i.ebayimg.com/thumbs/images/g/oQoAAOSwMVthiGxx/s-l225.webp"], ["price", "CLP $1 887 175.32"], ["bids", "3 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 20 h (Wed, 10:00 PM)"], ["shipping", "+CLP $53 847.40 de envío estimado"], ["item_id", "185151856900"], ["created_at", "2021-11-08 04:35:10.514627"], ["updated_at", "2021-11-08 04:35:10.514627"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 Ventus tasa de datos doble de gráficos 3x 24GB 6X Tarjeta Gráfica OC Edition (912V388002)"], ["url", "https://www.ebay.com/itm/144275617716?epid=4041884252&hash=item21977f37b4:g:bAYAAOSwtjZhc1fD"], ["img", "https://i.ebayimg.com/thumbs/images/g/bAYAAOSwtjZhc1fD/s-l225.webp"], ["price", "CLP $1 481 331.17"], ["bids", "16 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 20 h (Wed, 10:31 PM)"], ["shipping", "Envío no especificado"], ["item_id", "144275617716"], ["created_at", "2021-11-08 04:35:10.521819"], ["updated_at", "2021-11-08 04:35:10.521819"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "bids", "time_left", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Asus Rog GeForce RTX 3090 STRIX"], ["url", "https://www.ebay.com/itm/403275858397?hash=item5de51d41dd:g:JfYAAOSwV5Fhg4ZJ"], ["img", "https://i.ebayimg.com/thumbs/images/g/JfYAAOSwV5Fhg4ZJ/s-l225.webp"], ["price", "CLP $2 069 805.19"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 3 d 2 h (Thu, 04:11 AM)"], ["shipping", "Envío no especificado"], ["item_id", "403275858397"], ["created_at", "2021-11-08 04:35:10.527158"], ["updated_at", "2021-11-08 04:35:10.527158"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "MSI GeForce RTX 3090 VENTUS 3X OC 24GB GDDR6X Graphics Card GENTLY USED"], ["url", "https://www.ebay.com/itm/373783208802?hash=item5707372362&_trkparms=ispr%3D1&amdata=enc%3AAQAGAAADIHcSLFlKRO3tl2n%252FzL4LuX0lAOM3vFZykLBaF%252B7HSaMsJ%252Bo9EHDrKrpfVrbO3yq5OXL0UTCvbMDQFIZw%252FFZx432yBWQgBqKtRUmnmwdB7djyhOh1xqidi5TqsWc44qivdOBYk4JLw5QRJ1VQ0kg1nuMJuE%252B5LRLDJNXiVVCOfz6NuObHrmQJ9NFjJm5A43AMiU6cqNaK0ItmxY4PPif4mg5Y7sQYGjbF%252BDvVGW%252BaOlEWMWVpmp6XlFw6MHmzG7DD66K8lm%252Bla374PNOQ80xozvRmFq8irOsHFWr9C68Ntu1QmGWGEdPWa%252FafqvvEcYjLlr6rbxGb0Xuhgf7gwSpCtegsXfWAPTJoLenCgM1LrM2Ea5ABeqt3l187Cea5UwVdl5It9crGfaT6ySkF3IqfWuqmSHnVX6jGLwY5shqTwLxR%252Bea%252BRlDHNI3wYRR3naJMcNZ8vher6KbB%252B5Gr%252FGuQUC6wG5UtZ27rS7tSDR881EG599dGhbuakFZtrNLhkUakdSI%252FjwzzyiAIA5v4DZ2XkgNMHyT8YFDMx%252BegAOGEKa%252BuJ6U6VCbRv9PBwXofg%252F9rxdmnDEFvSzT57Nu8I%252BUKz7OHQ6wsV2Xf5CPNz1Q8zfDJTgPb05Fb31tf5BXPHycgbqSpih9VsozLVrgQRNK4oiQGn%252BovHwF6q7wDkGVZA1v8N63vReFVxixrQCDYdSxFcXAvYcv%252BKn6zBlyvUiu0MJjeQzijO9Bn9CL18c%252Bns7xLAMBJk%252FJCr9VBtKlVUdwnYZ02R%252F4X0eXvkJXvkxFDr2VOqRvSlV5vxqxWnJGZVr8CM%252BkWt%252Bzli9Q%252B1%252Ff3swGcK45OBykAWGMyc9MPI1eH8EJABzEGUQXnSNrKXXKWZdnp%252F9RH9hqVOFCXoAER8Tm02LgcY%252B2SbWKwUYmYyCzeAfqfBEwMCQvcu7%252FdbxQY0VUc568NxQbYp36AD16qf0BT2vCEgayJ7vzqHlxQvEemaIHMTb7spYWFLRcfhtsfEEoYSbHViK0QwJ7qcoGY6g2YF%252BUsnBF6jOlGVVgGEvly1h8rgVadein9ZSEUC%252BXDTDJY%7Campid%3APL_CLK"], ["img", "https://i.ebayimg.com/thumbs/images/g/c6kAAOSwRnZhh0Uf/s-l225.webp"], ["price", "CLP $2 353 084.42"], ["item_id", "373783208802"], ["created_at", "2021-11-08 04:35:10.532634"], ["updated_at", "2021-11-08 04:35:10.532634"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "url", "img", "price", "shipping", "item_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "ANUNCIO NUEVOGIGABYTE AORUS GeForce RTX 3090 XTREME 24GB GV-N3090AORUS NON-LHR New, FAST 🚚💨"], ["url", "https://www.ebay.com/itm/224681250101?epid=25040731208&hash=item34500bcd35&_trkparms=ispr%3D1&amdata=enc%3AAQAGAAADMNMfe08KVbeayuvSnEVbcPzeEKCGUnVFaXlnytkllBGkkl%252FNywvMvw%252Bx3xfrL3FgV1r3NXiMr%252BMDrJOTAI%252B5LIoY58QodYSd94snlPH5atpRM11uCTdO6bMGuw%252BhKnhSDvP0lPYPR%252F88PFZ%252BnQW6KP5WYCVoZkGlBQX0WQXYac3DAQ9FX1uNruLAf2KoFIsobNEGCR%252FMeKq0La2KExtEcnU8%252Fy5nwtMDpBRz%252BjT800pw2t%252FoEOiqdS8osZ7G%252FLQPKZX9sO87jt8V5lvnd%252Bx%252By5KvCQZyt%252BxpI8zfeuhQi6ixEPKW2PFZGJYYvXt%252FAJCgYKd6DXp1cdHJXUQy1o6XMs4VEnuS9umcAkFbRikKfO53fVkoYyVfcmHc0S8FBumxPtqcuYOvml1T%252FegGBTVMe1EL2eQPO0OB9wER%252F02FbBC7CseNZykweC%252FE16JO2zh5B7XP3OIaA496suNI1968oHf3ubpSbdipoELoXEuRcsS7DXJEAFb7lYIeQiei4L6dyZSlJ7Kl%252FdazyHz%252FgT4kUDMianR9tISR6Vzrjij7uU8xw75zJbSJ31Nc24xdb0rhvlibAgMQiMWTmkJqMf7YOtVqvChD%252F1vF9seDkSXU3v67ef3K4q%252Fg8tSUhcal0yEACnpx4Wvz8ISXtThCrrsxZauoGM1fP8sL7%252FxwAAMkB9n%252Bm23oZZZapOBI26rK0yH%252B1iiaHSmaSv5pYxhjxPtkkMRbmQjXjjAieKOAU%252FSAIDp7AwMh5xDLAUb6oxRzSSIblf4V6TMZ%252BydMq0zoLZGWw0bMFAVgUtf04KwLQCza3JQotVUois27eBEIQg2bYJSikb4c4owLs7uc1i04loelAe20RDVYYTUMeiTiwsSZbuj3laXMlHGvIpo2d%252ByEvCxaxWr4zvRWm9Rh56XF8PUpmiFSPiL%252BEljXbsvjVRGJPotume%252Bi%252Bh%252BMlg4kb6eHBPHPMgymeboBOFvDr1fT7Bav2H%252BlxX48r63aUxN8X6B4h9mddCu4lGtl%252B81bcJ6F%252Bt0Ei%252Bb0ibAWv3Oo5yp6hz4FTwYr8io%252BdzkhrT7SCVwzoH1Uz7aoLbR4u497mbeIMVyMpA%253D%253D%7Campid%3APL_CLK"], ["img", "https://i.ebayimg.com/thumbs/images/g/zn8AAOSw3SxhTqPQ/s-l225.webp"], ["price", "CLP $2 678 563.31"], ["shipping", "Envío no especificado"], ["item_id", "224681250101"], ["created_at", "2021-11-08 04:35:10.539281"], ["updated_at", "2021-11-08 04:35:10.539281"]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+Completed 200 OK in 88533ms (Views: 6.7ms | ActiveRecord: 282.1ms | Allocations: 3576644)
+
+
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:42:29 -0300
+  
+SyntaxError (/Users/kaosb/work/personal/gpu-buy-tool/app/controllers/application_controller.rb:12: syntax error, unexpected label
+... if Product.exists ? ( item_id: product[:item_id] )
+...                       ^~~~~~~~
+/Users/kaosb/work/personal/gpu-buy-tool/app/controllers/application_controller.rb:13: syntax error, unexpected constant, expecting ':'
+          Product.where( item_id: product[:ite...
+          ^~~~~~~
+/Users/kaosb/work/personal/gpu-buy-tool/app/controllers/application_controller.rb:18: else without rescue is useless
+        else
+        ^~~~
+/Users/kaosb/work/personal/gpu-buy-tool/app/controllers/application_controller.rb:31: else without rescue is useless
+    else
+    ^~~~
+/Users/kaosb/work/personal/gpu-buy-tool/app/controllers/application_controller.rb:78: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/application_controller.rb:12: syntax error, unexpected label
+app/controllers/application_controller.rb:13: syntax error, unexpected constant, expecting ':'
+app/controllers/application_controller.rb:18: else without rescue is useless
+app/controllers/application_controller.rb:31: else without rescue is useless
+app/controllers/application_controller.rb:78: syntax error, unexpected `end', expecting end-of-input
+app/controllers/application_controller.rb:12: syntax error, unexpected label
+app/controllers/application_controller.rb:13: syntax error, unexpected constant, expecting ':'
+app/controllers/application_controller.rb:18: else without rescue is useless
+app/controllers/application_controller.rb:31: else without rescue is useless
+app/controllers/application_controller.rb:78: syntax error, unexpected `end', expecting end-of-input
+Started POST "/api/v1/search?q=RTX%203090" for ::1 at 2021-11-08 01:46:23 -0300
+Processing by ApplicationController#search as */*
+  Parameters: {"q"=>"RTX 3090"}
+  [1m[36mProduct Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "185147469047"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (34.0ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 916 193.18"], ["bids", "18 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 7 h 18 min (Today 09:05 AM)"], ["item_id", "185147469047"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "403264120143"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 069 805.19"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 8 h 58 min (Today 10:45 AM)"], ["item_id", "403264120143"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "124989930655"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 150 974.03"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 10 h 57 min (Today 12:43 PM)"], ["item_id", "124989930655"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "185139813401"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (1.0ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 960 227.27"], ["bids", "28 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 12 h 2 min (Today 01:49 PM)"], ["item_id", "185139813401"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "175003783368"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.8ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 192 370.13"], ["bids", "43 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 12 h 57 min (Today 02:44 PM)"], ["item_id", "175003783368"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "353752290357"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.6ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 314 123.38"], ["bids", "16 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 14 h 8 min (Today 03:55 PM)"], ["item_id", "353752290357"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "255206917334"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (66.6ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 314 123.38"], ["bids", "4 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 15 h 13 min (Today 05:00 PM)"], ["item_id", "255206917334"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "403274870381"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (2.5ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 781 655.84"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 15 h 48 min (Today 05:35 PM)"], ["item_id", "403274870381"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "373776819215"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.6ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 710 339.29"], ["bids", "9 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 16 h 17 min (Today 06:04 PM)"], ["item_id", "373776819215"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "373776820333"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.5ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 970 941.56"], ["bids", "6 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 16 h 20 min (Today 06:07 PM)"], ["item_id", "373776820333"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "115075187756"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 232 142.86"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 17 h 32 min (Today 07:19 PM)"], ["item_id", "115075187756"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "393672275416"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.6ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $4 058 441.56"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 18 h 18 min (Today 08:05 PM)"], ["item_id", "393672275416"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "353752590455"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (4.9ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 335 284.50"], ["bids", "61 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 18 h 39 min (Today 08:26 PM)"], ["item_id", "353752590455"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "403279376320"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.6ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 785 714.29"], ["bids", "1 oferta de subasta"], ["time_left", "Tiempo restante\nQuedan 20 h 34 min (Today 10:21 PM)"], ["item_id", "403279376320"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "324861089363"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (40.1ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 948 863.64"], ["bids", "76 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 21 h (Today 10:47 PM)"], ["item_id", "324861089363"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "124990652971"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (2.4ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 677 759.74"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 22 h 2 min (Today 11:49 PM)"], ["item_id", "124990652971"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "373777164259"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 948 051.95"], ["bids", "20 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 22 h 39 min (Tue, 12:26 AM)"], ["item_id", "373777164259"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "255207953231"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $3 376 314.94"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 6 h (Tue, 08:43 AM)"], ["item_id", "255207953231"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "324869475663"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.9ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 232 142.86"], ["bids", "15 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 8 h (Tue, 09:46 AM)"], ["item_id", "324869475663"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "324869489063"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 765 422.08"], ["bids", "15 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 8 h (Tue, 09:59 AM)"], ["item_id", "324869489063"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "124991358686"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 556 818.18"], ["bids", "19 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 10 h (Tue, 11:47 AM)"], ["item_id", "124991358686"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "133919342668"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.5ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 079 343.34"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 10 h (Tue, 12:13 PM)"], ["item_id", "133919342668"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "203682777780"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.8ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $681 818.18"], ["bids", "13 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 10 h (Tue, 12:39 PM)"], ["item_id", "203682777780"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "165163582897"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 382 305.19"], ["bids", "17 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 11 h (Tue, 01:15 PM)"], ["item_id", "165163582897"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "224672770480"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.8ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 394 480.52"], ["bids", "12 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 11 h (Tue, 01:18 PM)"], ["item_id", "224672770480"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "185136444199"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 968 344.16"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 12 h (Tue, 01:52 PM)"], ["item_id", "185136444199"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "334204278879"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.5ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 333 603.90"], ["bids", "17 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 12 h (Tue, 01:54 PM)"], ["item_id", "334204278879"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "234270967520"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.6ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 978 895.70"], ["bids", "41 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 13 h (Tue, 03:06 PM)"], ["item_id", "234270967520"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (2.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "144273500406"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 250 876.62"], ["bids", "9 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 13 h (Tue, 03:31 PM)"], ["item_id", "144273500406"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "275011860312"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 353 896.10"], ["bids", "20 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 13 h (Tue, 03:36 PM)"], ["item_id", "275011860312"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "313736131644"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.6ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 435 064.94"], ["bids", "5 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 15 h (Tue, 05:14 PM)"], ["item_id", "313736131644"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "154681739144"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 244 683.44"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 16 h (Tue, 06:21 PM)"], ["item_id", "154681739144"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "185149989020"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (1.0ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 069 805.19"], ["bids", "6 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 16 h (Tue, 06:43 PM)"], ["item_id", "185149989020"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "334204571310"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 943 993.51"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 18 h (Tue, 07:50 PM)"], ["item_id", "334204571310"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "403272892998"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 353 085.23"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 18 h (Tue, 08:21 PM)"], ["item_id", "403272892998"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "165164263610"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 313 311.69"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 19 h (Tue, 09:08 PM)"], ["item_id", "165164263610"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "304206514755"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.6ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 232 142.86"], ["bids", "5 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 19 h (Tue, 09:36 PM)"], ["item_id", "304206514755"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "175001522418"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $84 415.58"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 21 h (Tue, 11:15 PM)"], ["item_id", "175001522418"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "384480275682"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 272 727.27"], ["bids", "18 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 21 h (Tue, 11:16 PM)"], ["item_id", "384480275682"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "203683122766"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.6ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 069 813.31"], ["bids", "2 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 1 d 22 h (Wed, 12:00 AM)"], ["item_id", "203683122766"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "185143207205"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (1.0ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 907 382.31"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 7 h (Wed, 09:17 AM)"], ["item_id", "185143207205"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "294518277377"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.9ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 827 500.81"], ["bids", "5 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 9 h (Wed, 11:44 AM)"], ["item_id", "294518277377"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "313737334481"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 434 253.25"], ["bids", "0 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 10 h (Wed, 12:28 PM)"], ["item_id", "313737334481"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "124986609524"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 272 727.27"], ["bids", "10 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 11 h (Wed, 01:28 PM)"], ["item_id", "124986609524"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "255210150099"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 150 974.03"], ["bids", "14 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 11 h (Wed, 01:42 PM)"], ["item_id", "255210150099"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "393679394619"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (6.2ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 745 129.87"], ["bids", "32 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 12 h (Wed, 02:20 PM)"], ["item_id", "393679394619"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "324864400804"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.9ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 394 480.52"], ["bids", "1 oferta de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 16 h (Wed, 06:06 PM)"], ["item_id", "324864400804"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "185151856900"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.5ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 887 175.32"], ["bids", "3 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 20 h (Wed, 10:00 PM)"], ["item_id", "185151856900"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "144275617716"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.8ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $1 481 331.17"], ["bids", "16 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 2 d 20 h (Wed, 10:31 PM)"], ["item_id", "144275617716"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "403275858397"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 069 805.19"], ["bids", "8 ofertas de subasta"], ["time_left", "Tiempo restante\nQuedan 3 d 2 h (Thu, 04:11 AM)"], ["item_id", "403275858397"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "373783208802"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 353 084.42"], ["bids", nil], ["time_left", nil], ["item_id", "373783208802"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."item_id" = $1 LIMIT $2[0m  [["item_id", "224681250101"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `block in search'
+  [1m[36mProduct Update All (0.7ms)[0m  [1m[33mUPDATE "products" SET "price" = $1, "bids" = $2, "time_left" = $3 WHERE "products"."item_id" = $4[0m  [["price", "CLP $2 678 563.31"], ["bids", nil], ["time_left", nil], ["item_id", "224681250101"]]
+  ↳ app/controllers/application_controller.rb:13:in `block in search'
+Completed 200 OK in 80186ms (Views: 4.2ms | ActiveRecord: 235.5ms | Allocations: 3529084)
+
+
